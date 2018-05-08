@@ -8,7 +8,7 @@ F=G+H
 G: 从起点到当前格的步数
 H: 当前格到目标格的步数(不考虑障碍)
 
-'''java
+```java
 public Node aStarSearch(Node start, Node end) {
     // 把起点加入 open list  
     openList.add(start);
@@ -36,4 +36,4 @@ public Node aStarSearch(Node start, Node end) {
     //OpenList用尽，仍然找不到终点，说明终点不可到达，返回空
     return null;
 }
-'''
+```
